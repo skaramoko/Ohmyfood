@@ -1,0 +1,14 @@
+@mixin footer-form{
+    border: 1px solid black;
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    &--mark +.couvert +.couvert1 +.info{
+        text-decoration-color: white;
+    }
+}
+
+@mixin logo-form{
+    width: 100px;
+    height: 20px;
+}

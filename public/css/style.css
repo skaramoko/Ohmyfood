@@ -1,18 +1,76 @@
-body{
+main{
     max-width: 320px;
     margin: auto;
 }
+
 #logo a img{
     width: 100px;
     height: 20px;
 }
-.headpageD{
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 27px;
+    width: 300px;
+    height: 60px;
+}
+.headpageA{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+}
+.headpageA i{
+    margin-right: 10px;
+}
+
+.logo a img{
+    width: 100px;
+    height: 20px;
+}
+
+.btn-Acuil{
     border: 1px solid black;
     border-radius: 20px;
     width: 200px;
     height: 40px;
     font-size: 11px;
     text-align: center;
+}
+.table a img{
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+}
+
+.entreA, .entreB, .entreC{
+    border: 1px solid black;
+    width: 270px;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.platA, .platB, .platC{
+    border: 1px solid black;
+    width: 270px;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.dessertA, .dessertB, .dessertC{
+    border: 1px solid black;
+    width: 270px;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.btn-bas{
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .headpageA, .headpageB, .headpageC{
@@ -29,12 +87,12 @@ body{
 }
 article img{
     width: 300px;
-    height: 130px;
+    height: 160px;
     border: 1px solid black;
 }
-.platA, .platB, .platC, .platD{
+.plat-AclA, .plat-AclB, .plat-AclC, .plat-AclD{
     width: 300px;
-    height: 220px;
+    height: 260px;
     display: inline-block;
     border: 1px solid black;
     margin-bottom: 20px;
@@ -43,7 +101,6 @@ article img{
 .annonceA, .annonceB, .annonceC, .annonceD{
     width: 300px;
     height: 60px;
-    text-align: center;
 }
 footer{
     border: 1px solid black;
