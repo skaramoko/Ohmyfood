@@ -59,11 +59,13 @@ h3, h4{
     border: 1px solid black;
     border-radius: 20px;
     width: 220px;
-    height: 40px;
+    height: 30px;
     font-size: 11px;
     text-align: center;
     margin-left: 50px;
+    padding-bottom: 15px;
 }
+
 .eta, .eta1{
     border: 1px solid black;
     width: 70px;
@@ -125,6 +127,11 @@ h3, h4{
 .entreA2{
     display: flex;
 }
+.plat-Acl{
+    border: 1px solid black;
+    width: 320px;
+
+}
 
 .platA, .platB, .platC{
     border: 1px solid black;
@@ -171,6 +178,9 @@ h3, h4{
     text-align: center;
     margin-left: 15px;
 }
+.chr1 i, .chr2 i, .chr3 i{
+    margin-right: 20px;
+}
 
 article img{
     width: 300px;
@@ -184,7 +194,7 @@ article img{
     width: 300px;
     height: 230px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 9px;
 } 
 
 .annonceA, .annonceB, .annonceC, .annonceD{
@@ -204,7 +214,7 @@ article img{
 footer{
     border: 1px solid black;
     width: 310px;
-    height: 200px;
+    height: 230px;
     padding-left: 10px;
     background-color: black;
 }
