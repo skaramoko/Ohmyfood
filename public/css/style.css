@@ -6,19 +6,19 @@ main{
 #logo a img{
     width: 100px;
     height: 20px;
+    margin-left: 110px;
 }
 
 h1{
     border: 1px solid black;
     border-radius: 27px;
+    font-size: 25px;
     width: 290px;
     height: 60px;
+    padding: 10px 0px 0px 10px;
+    
 }
 
-h1{
-    font-size: 25px;
-    padding: 10px 0px 0px 10px;
-}
 h1 i{
     margin-left: 60px;
 }
@@ -26,7 +26,7 @@ h1 i{
 
 .headpageA{
     border: 1px solid black;
-    width: 100%;
+    width: 320px;
     height: 40px;
 }
 
@@ -54,6 +54,7 @@ h1 i{
     height: 40px;
     font-size: 11px;
     text-align: center;
+    margin-left: 60px;
 }
 .eta, .eta1{
     border: 1px solid black;
@@ -70,33 +71,43 @@ h1 i{
 
 .entreA , .entreB, .entreC{
     border: 1px solid black;
-    width: 280px;
-    height: 60px;
+    width: 270px;
+    height: 50px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 .entreA p, .entreB p, .entreC p{
     margin-top: 3px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .entreA {
     display: flex;
 }
-.A2, .A3{
+.A3{
    border: 1px solid black;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   padding: 12px 0px 0px 15px ;
    width: 40px;
-   height: 60px;
+   height: 37px;
 }
-.A2{
-    margin-left: 15px;
-}
-
 .A3r{
     border: 1px solid black;
     width: 20px;
     height: 20px;
     border-radius: 30px;
     
+}
+
+.A2{
+    border: 1px solid black;
+    width: 25px;
+    height: 20px;
+    margin-left: 55px;
+    padding: 23px 0px 5px 5px;
+}
+.A1 p{
+    font-size: 11px;
 }
 .entreA2{
     display: flex;
@@ -135,24 +146,26 @@ h1 i{
 .chr1, .chr2, .chr3{
     border: 1px solid black;
     border-radius: 17px;
-    width: 250px;
-    height: 60px;
+    width: 300px;
+    height: 50px;
     margin-bottom: 20px;
     text-align: center;
+    margin-left: 10px;
 }
 
 article img{
     width: 300px;
-    height: 160px;
+    height: 150px;
     border: 1px solid black;
 }
 
-.plat-AclA, .plat-AclB, .plat-AclC, .plat-AclD{
+.plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
     width: 300px;
-    height: 260px;
+    height: 240px;
     display: inline-block;
     border: 1px solid black;
     margin-bottom: 20px;
+    margin-left: 10px;
 } 
 
 .annonceA, .annonceB, .annonceC, .annonceD{
@@ -163,9 +176,9 @@ article img{
 
 footer{
     border: 1px solid black;
-    width: 300px;
-    height: 220px;
-    padding-left: 20px;
+    width: 310px;
+    height: 180px;
+    padding-left: 10px;
     background-color: black;
 }
 
