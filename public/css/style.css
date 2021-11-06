@@ -8,6 +8,11 @@ main{
     height: 20px;
     margin-left: 110px;
 }
+.head{
+    border: 1px solid black;
+    height: 280px;
+    width: 320px;
+}
 
 h1{
     border: 1px solid black;
@@ -22,11 +27,14 @@ h1{
 h1 i{
     margin-left: 60px;
 }
+h3, h4{
+    margin-left: 10px;
+}
 
 
 .headpageA{
     border: 1px solid black;
-    width: 320px;
+    width: 319px;
     height: 40px;
 }
 
@@ -60,7 +68,12 @@ h1 i{
     border: 1px solid black;
     width: 70px;
     height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: -35px;
+    position: relative;
     float: right;
+    background-color: aquamarine;
 }
 
 .table a img{
@@ -120,6 +133,12 @@ h1 i{
     border-radius: 20px;
     margin-bottom: 10px;
 }
+.plat-Acl img{
+    border: 1px solid black;
+    width: 299px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
 
 .dessertA, .dessertB, .dessertC{
     border: 1px solid black;
@@ -146,11 +165,11 @@ h1 i{
 .chr1, .chr2, .chr3{
     border: 1px solid black;
     border-radius: 17px;
-    width: 300px;
+    width: 290px;
     height: 50px;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 article img{
@@ -160,20 +179,28 @@ article img{
 }
 
 .plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
-    width: 300px;
-    height: 240px;
-    display: inline-block;
     border: 1px solid black;
+    border-radius: 12px;
+    width: 300px;
+    height: 230px;
     margin-bottom: 20px;
     margin-left: 10px;
 } 
 
 .annonceA, .annonceB, .annonceC, .annonceD{
     display: flex;
+    flex-direction: column;
     width: 300px;
     height: 60px;
+    padding: 10px;
 }
 
+.annonceA i, .annonceB i,.annonceC i, .annonceD i{
+    margin-left: 130px;
+}
+.annonceA p, .annonceB p, .annonceC p, .annonceD p{
+    margin-top: 0px;
+}
 footer{
     border: 1px solid black;
     width: 310px;
