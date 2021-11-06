@@ -58,11 +58,11 @@ h3, h4{
 .btn-Acuil{
     border: 1px solid black;
     border-radius: 20px;
-    width: 200px;
+    width: 220px;
     height: 40px;
     font-size: 11px;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .eta, .eta1{
     border: 1px solid black;
@@ -204,7 +204,7 @@ article img{
 footer{
     border: 1px solid black;
     width: 310px;
-    height: 180px;
+    height: 200px;
     padding-left: 10px;
     background-color: black;
 }
