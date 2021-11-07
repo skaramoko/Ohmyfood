@@ -13,24 +13,22 @@ main{
     height: 280px;
     width: 320px;
 }
-
 h1{
-    border: 1px solid black;
-    border-radius: 27px;
-    font-size: 25px;
-    width: 290px;
-    height: 60px;
-    padding: 10px 0px 0px 10px;
-    
+    font-size: 22px;
 }
 
 h1 i{
-    margin-left: 60px;
+    margin-left: 40px;
 }
 h3, h4{
     margin-left: 10px;
 }
-
+h1, h2, h3, h4{
+    margin-left: 20px;
+}
+h5{
+    font-size: 16px;
+}
 
 .headpageA{
     border: 1px solid black;
@@ -80,18 +78,23 @@ h3, h4{
 
 .table a img{
     border: 1px solid white;
-    width: 300px;
+    width: 320px;
     height: 200px;
 }
 
 .entreA , .entreB, .entreC{
     border: 1px solid black;
-    width: 270px;
+    width: 290px;
     height: 50px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
-.entreA p, .entreB p, .entreC p{
+.platA, .platB, .platC{
+    width: 290px;
+}
+
+
+.ENTREE p, .PLAT p, .DESSERT p{
     margin-top: 3px;
     margin-left: 15px;
 }
@@ -160,9 +163,10 @@ h3, h4{
     width: 150px;
     height: 40px;
     border-radius: 20px;
-    text-align: center;
+    margin-left: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .headpageA, .headpageB, .headpageC{
@@ -214,7 +218,7 @@ article img{
 footer{
     border: 1px solid black;
     width: 310px;
-    height: 230px;
+    height: 220px;
     padding-left: 10px;
     background-color: black;
 }
@@ -222,10 +226,19 @@ footer{
 footer p{
     color: white;
 }
+footer i{
+    margin-right: 10px;
+}
 h5{
     color: white;
 }
 .conta a{
     color: white;
     text-decoration: none;
+}
+
+/* A la Francaise*/
+
+.ENTREE, .PLAT, .DESSERT{
+    margin-left: 20px;
 }
