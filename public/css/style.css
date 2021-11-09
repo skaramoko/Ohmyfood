@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+body{
+    font-family: roboto;
+}
+
 main{
     max-width: 320px;
     margin: auto;
@@ -84,6 +90,23 @@ h5{
 
 .entreA , .entreB, .entreC{
     border: 1px solid black;
+    display: flex;
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.platA, .platB, .platC{
+    border: 1px solid black;
+    display: flex;
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.dessertA, .dessertB, .dessertC{
+    border: 1px solid black;
+    display: flex;
     width: 290px;
     height: 50px;
     border-radius: 20px;
@@ -101,7 +124,7 @@ h5{
 .entreA {
     display: flex;
 }
-.A3{
+.A3, .B3, .C3{
    border: 1px solid black;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
@@ -109,7 +132,7 @@ h5{
    width: 40px;
    height: 37px;
 }
-.A3r{
+.A3r, .B3r, .C3r{
     border: 1px solid black;
     width: 20px;
     height: 20px;
@@ -117,32 +140,23 @@ h5{
     
 }
 
-.A2{
+.A2, .B2, .C2{
     border: 1px solid black;
-    width: 25px;
+    width: 30px;
     height: 20px;
     margin-left: 55px;
     padding: 23px 0px 5px 5px;
 }
-.A1 p{
+.A1 p, .B1 P, .C1 p{
     font-size: 11px;
 }
-.entreA2{
-    display: flex;
-}
+
 .plat-Acl{
     border: 1px solid black;
     width: 320px;
 
 }
 
-.platA, .platB, .platC{
-    border: 1px solid black;
-    width: 270px;
-    height: 90px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
 .plat-Acl img{
     border: 1px solid black;
     width: 299px;
@@ -150,13 +164,6 @@ h5{
     border-top-right-radius: 12px;
 }
 
-.dessertA, .dessertB, .dessertC{
-    border: 1px solid black;
-    width: 270px;
-    height: 90px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
 
 .btn-bas{
     border: 1px solid black;
