@@ -49,6 +49,8 @@ h5{
 
 span{
     color: gray;
+    font-size: 11px;
+    margin-left: 10px;
 }
 .headpageA{
     border: 1px solid black;
@@ -159,7 +161,8 @@ span{
 
 
 .ENTREE p, .PLAT p, .DESSERT p{
-    margin-top: 0px;
+    margin-top: 5px;
+    margin: 0px;
     margin-left: 10px;
 }
 
@@ -187,7 +190,8 @@ span{
 }*/
 
 .A1 p, .B1 P, .C1 p{
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 .A2, .B2, .C2{
@@ -240,7 +244,7 @@ span{
     height: 50px;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .chr1 i, .chr2 i, .chr3 i{
@@ -260,7 +264,7 @@ span{
 
 article img{
     width: 300px;
-    height: 150px;
+    height: 170px;
     border: 1px solid black;
 }
 
@@ -276,15 +280,19 @@ article img{
 .annonceA, .annonceB, .annonceC, .annonceD{
     width: 300px;
     height: 60px;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .annonceA i, .annonceB i,.annonceC i, .annonceD i{
     margin-left: 60px;
 }
+
 .annonceA p, .annonceB p, .annonceC p, .annonceD p{
-    margin-top: 0px;
+    margin: 0px;
+    font-size: 11px;
+    margin-left: 10px;
 }
+
 footer{
     border: 1px solid black;
     width: 310px;
@@ -296,12 +304,15 @@ footer{
 footer p{
     color: white;
 }
+
 footer i{
     margin-right: 10px;
 }
+
 h5{
     color: white;
 }
+
 .conta a{
     color: white;
     text-decoration: none;
