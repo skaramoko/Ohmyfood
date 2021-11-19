@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 810px){
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
     body{
@@ -8,7 +8,6 @@
     
     main{
         width: 100%;
-        display: inline-block;
         align-content: center;
         justify-content: center;
     }
@@ -19,6 +18,7 @@
         margin-left: 38%;
         margin-bottom: 0px;
     }
+
     .logo a img{
         width: 100px;
         height: 20px;
@@ -30,36 +30,43 @@
     
     
     .tronc{
-        border: 1px solid black;
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        width: 90%;
+        width: 100%;
         height: 930px;
         
     }
-    
-    .head{
-        background-color: rgba(248, 241, 241, 0.664);
-        height: 280px;
-        width: 100%
+    .tronc h1{
+        margin-left: 10px;
+    }
+
+    .tro{
+        display: flex;
+    }
+    .tro2{
+        margin-top: 30px;
+        margin-left: 40%;
+    }
+    .table img{
+        width: 100%;
+        height: 200px;
+    }
+    .headp {
+        border: 1px solid black;
+        width: 100%;
+        height: 240px;  
     }
     
     h1{
         font-size: 22px;
     }
-    
-    .tronc h1{
-        margin-left: 15px;
-    }
-    
+
     h3, h4{
         margin-left: 10px;
     }
-    
-    h1 i{
-        margin-left: 40px;
-    }
-    
+
     span{
         color: gray;
         font-size: 12px;
@@ -68,7 +75,9 @@
     .heart{
         display: flex;
         font-size: 1rem;
-
+    }
+    .heart i{
+        color: gray;
     }
     .heart1{
         visibility: visible;
@@ -90,8 +99,7 @@
         visibility: visible;
         opacity: 1;
     }
-
-
+   
     .headpageA{
         background-color: rgb(218, 214, 214);
         width: 100%;
@@ -114,14 +122,15 @@
     .headpageC{
         text-align: center;
         text-decoration-color: none;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     
     .plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
-        border: 1px solid black;
+        border: 1px solid gainsboro;
+        box-shadow: 0px 1px 5px gray;
         border-radius: 12px;
         width: 90%;
-        height: 220px;
+        height: 200px;
         margin-bottom: 20px;
         margin-left: 5%;  
         align-items: center;
@@ -129,8 +138,7 @@
 
     .plat-Acl img{
         width: 100%;
-        height: 170px;
-        
+        height: 150px;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
     }
@@ -138,18 +146,19 @@
     .annonceA, .annonceB, .annonceC, .annonceD{
         display: flex;
         width: 100%;
-        height: 60px;
+        height: 0px;
         padding-top: 5px;
         margin-left: 5%;
     }
     .annonceA p, .annonceB p, .annonceC p, .annonceD p{
         margin: 0px;
+        font: bold;
         font-size: 12px;
     }
     
     .btn-Acuil{
-        border: 1px solid #9356DC;
-        background-color: #9356DC;
+        border: 1px solid #d33fcb;
+        background-color: #ee80e8;
         border-radius: 20px;
         width: 60%;
         height: 40px;
@@ -161,6 +170,7 @@
     .btn-Acuil h2{
         color: white;
         text-align: center;
+        margin-top: 8px;
     }
     
     
@@ -177,9 +187,12 @@
     }
     
     .entreA , .entreB, .entreC{
-        border: 1px solid black;
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
+        justify-content:space-between;
+        background-color: white;
         display: flex;
-        width: 280px;
+        width: 95%;
         height: 50px;
         border-radius: 20px;
         margin-top: 20px;
@@ -188,22 +201,26 @@
     }
     
     .platA, .platB, .platC{
-        border: 1px solid black;
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
+        justify-content:space-between;
+        background-color: white;
         display: flex;
-        width: 290px;
+        width: 95%;
         height: 50px;
         border-radius: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
-        justify-content:space-between;
     }
     
     .dessertA, .dessertB, .dessertC{
-        border: 1px solid black;
-        display: flex;
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
         justify-content:space-between;
+        background-color: white;
         display: flex;
-        width: 290px;
+        display: flex;
+        width: 95%;
         height: 50px;
         border-radius: 20px;
         margin-top: 20px;
@@ -214,29 +231,23 @@
         margin: 0px;
         margin-left: 10px;
     }
+
+    .ENTREE span, .PLAT span, .DESSERT span{
+        margin-left: 10px;
+    }
     
     .A3, .B3, .C3{
-       border: 1px solid black;
+       border: 1px solid #99E2D0;
+       background-color: #99E2D0;
        border-top-right-radius: 20px;
        border-bottom-right-radius: 20px;
        padding: 12px 5px 0px 5px ;
        width: 25px;
        height: 37px;
-       transform: translate(60px, 0);
-    }
-    
-    .A3:hover{
-        transform: scale(1);
-    }
-    .B3:hover{
-        transform: scale(1);
-    }
-    .C3:hover{
-        transform: scale(1);
     }
     
     .A1 p, .B1 P, .C1 p{
-        font-size: 12px;
+        font: bold;
         margin-top: 10px;
     }
     
@@ -245,11 +256,15 @@
     }
     
     .A3r, .B3r, .C3r{
-        border: 1px solid black;
+        border: 1px solid #99E2D0;
+        background-color: white;
         width: 20px;
         height: 20px;
         border-radius: 30px;
         
+    }
+    .A3r i, .B3r i, .C3r i{
+        color: #99E2D0;
     }
     
     .chr1 i, .chr2 i, .chr3 i{
@@ -276,23 +291,32 @@
         text-align: center;
         margin-left: 8%;
     }
-    
+    .chr3{
+        background-color: #f7ebf4;
+    }
+    .chr1, .chr2{
+        background-color: #eff4f5;
+    }
     .btn-bas{
-        border: 1px solid black;
+        border: 1px solid #9356DC;
         background-color: #9356DC;
-        width: 160px;
+        width: 40%;
         height: 30px;
         border-radius: 25px;
-        margin-left: 75px;
-        margin-top: 40px;
+        margin-top: 30px;
         padding-bottom: 20px;
-        margin-bottom: 30px;
         text-align: center;
+        align-content: center;
     }
     
+    .btn-bas{
+        margin-left: 28%;
+    }
+
     .btn-bas p{
         color: white;
     }
+
     
     footer{
         width: 100%;
@@ -327,8 +351,9 @@
     .ENTREE, .PLAT, .DESSERT{
         margin-left: 14px;
     }
-    
+
+    /*IPHONE 678 PLUS*/
+     
     
 }
 
-  
