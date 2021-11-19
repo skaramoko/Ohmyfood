@@ -1,372 +1,77 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@media screen and (max-width: 375px){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
-body{
-    font-family: roboto;
-}
-
-main{
-    max-width: 320px;
-    margin: auto;
-}
-
-#logo a img{
-    width: 100px;
-    height: 20px;
-    margin-left: 110px;
-}
-.tronc{
-    border: 1px solid black;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    width: 320px;
-    height: 930px;
+    body{
+        font-family: roboto;
+    }
     
-}
-
-.head{
-    border: 1px solid black;
-    background-color: rgba(248, 241, 241, 0.664);
-    height: 280px;
-    width: 320px;
-}
-
-h1{
-    font-size: 22px;
-}
-
-.tronc h1{
-    margin-left: 15px;
-}
-
-h3, h4{
-    margin-left: 10px;
-}
-
-h1 i{
-    margin-left: 40px;
-}
-.plat-Acl i{
-    position: absolute;
-    margin-left: 150px;
-}
-
-span{
-    color: gray;
-    font-size: 11px;
-    margin-left: 10px;
-}
-
-.headpageA{
-    border: 1px solid black;
-    background-color: rgb(218, 214, 214);
-    width: 319px;
-    height: 40px;
-}
-
-.headpageA i{
-    margin-right: 10px;
-}
-
-.headpageB h1{
-    border: none;
-}
-
-.headpageA, .headpageB{
-    text-align: center;
-}
-
-.headpageC{
-    text-align: center;
-    text-decoration-color: none;
-    margin-bottom: 20px;
-}
-
-.logo a img{
-    width: 100px;
-    height: 20px;
-}
-
-.logo i{
-    margin-right: 90px;
-}
-
-article img{
-    width: 300px;
-    height: 170px;
-    border: 1px solid black;
-}
-
-.btn-Acuil{
-    border: 1px solid black;
-    background-color: #9356DC;
-    border-radius: 20px;
-    width: 220px;
-    height: 30px;
-    font-size: 11px;
-    text-align: center;
-    margin-left: 50px;
-    padding-bottom: 15px;
-}
-
-.btn-Acuil h2{
-    color: white;
-}
-
-.eta, .eta1{
-    border: 1px solid black;
-    width: 70px;
-    height: 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: -35px;
-    position: relative;
-    float: right;
-    background-color: aquamarine;
-}
-
-.table a img{
-    border: 1px solid white;
-    width: 320px;
-    height: 230px;
-}
-
-.entreA , .entreB, .entreC{
-    border: 1px solid black;
-    display: flex;
-    width: 290px;
-    height: 50px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.platA, .platB, .platC{
-    border: 1px solid black;
-    display: flex;
-    width: 290px;
-    height: 50px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-.dessertA, .dessertB, .dessertC{
-    border: 1px solid black;
-    display: flex;
-    justify-content:space-between;
-    display: flex;
-    width: 290px;
-    height: 50px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.platA, .platB, .platC{
-    width: 290px;
-    display: flex;
-    justify-content:space-between;
-    
-}
-
-
-.ENTREE p, .PLAT p, .DESSERT p{
-    margin: 0px;
-    margin-left: 10px;
-}
-
-.entreA, .entreB, .entreC{
-    display: flex;
-    justify-content: space-between;
-}
-
-.A3, .B3, .C3{
-   border: 1px solid black;
-   border-top-right-radius: 20px;
-   border-bottom-right-radius: 20px;
-   padding: 12px 5px 0px 5px ;
-   width: 25px;
-   height: 37px;
-   transform: translate(60px, 0);
-}
-
-.A3:hover{
-    transform: scale(1);
-}
-.B3:hover{
-    transform: scale(1);
-}
-.C3:hover{
-    transform: scale(1);
-}
-
-.A1 p, .B1 P, .C1 p{
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.A2, .B2, .C2{
-    padding-top: 25px;
-}
-
-.A3r, .B3r, .C3r{
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
-    
-}
-
-.plat-Acl{
-    border: 1px solid black;
-    width: 320px;
-
-}
-
-.plat-Acl img{
-    border: 1px solid black;
-    width: 299px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.chr1 i, .chr2 i, .chr3 i{
-    margin-right: 20px;
-}
-
-.ch{
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-left: -13px;
-    float: left;
-    background-color: #9356DC;
-}
-.chr1, .chr2, .chr3{
-    border: 1px solid black;
-    border-radius: 19px;
-    width: 290px;
-    height: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 20px;
-}
-
-.btn-bas{
-    border: 1px solid black;
-    background-color: #9356DC;
-    width: 160px;
-    height: 30px;
-    border-radius: 25px;
-    margin-left: 75px;
-    margin-top: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.btn-bas p{
-    color: white;
-}
-
-.plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
-    border: 1px solid black;
-    border-radius: 12px;
-    width: 300px;
-    height: 220px;
-    margin-bottom: 20px;
-    margin-left: 9px;
-} 
-
-.annonceA, .annonceB, .annonceC, .annonceD{
-    width: 300px;
-    height: 60px;
-    padding-top: 5px;
-}
-
-.annonceA p, .annonceB p, .annonceC p, .annonceD p{
-    margin: 0px;
-    font-size: 12px;
-    margin-left: 10px;
-}
-
-footer{
-    border: 1px solid black;
-    width: 310px;
-    height: 230px;
-    padding-left: 10px;
-    background-color: black;
-}
-
-footer p{
-    color: white;
-}
-
-footer i{
-    margin-right: 10px;
-}
-
-h5{
-    color: white;
-}
-
-.conta a{
-    color: white;
-    text-decoration: none;
-}
-
-.ENTREE, .PLAT, .DESSERT{
-    margin-left: 14px;
-}
-
-
-
-/* Iphone 6,7,8 */
-
-
-
-@media sreen and (min-width: 323px) and (max-width: 375px){
-
     main{
-        width: 375px;
+        width: 100%;
+        display: inline-block;
+        justify-content: center;
     }
     
     #logo a img{
-        width: 130px;
+        width: 100px;
         height: 20px;
-        margin-left: 110px;
+        margin-left: 38%;
+        margin-bottom: 0px;
     }
-
+    .logo a img{
+        width: 100px;
+        height: 20px;
+    }
+    
+    .logo i{
+        margin-right: 90px;
+    }
+    
+    
     .tronc{
         border: 1px solid black;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        width: 375px;
-        height: 930px;  
-    }
-
-    .head{
-        border: 1px solid black;
-        background-color: rgba(248, 241, 241, 0.664);
-        width: 365px;
-        height: 300px;
+        width: 90%;
+        height: 930px;
         
     }
-
-    article img{
-        width: 330px;
-        height: 180px;
-        border: 1px solid black;
+    
+    .head{
+        background-color: rgba(248, 241, 241, 0.664);
+        height: 280px;
+        width: 100%
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+    
+    .tronc h1{
+        margin-left: 15px;
+    }
+    
+    h3, h4{
+        margin-left: 10px;
+    }
+    
+    h1 i{
+        margin-left: 40px;
+    }
+    
+    
+    
+    span{
+        color: gray;
+        font-size: 12px;
+        margin-left: 10px;
     }
     
     .headpageA{
-        border: 1px solid black;
         background-color: rgb(218, 214, 214);
-        width: 319px;
+        width: 100%;
         height: 40px;
+        padding-top: 3px;
     }
     
     .headpageA i{
@@ -386,101 +91,100 @@ h5{
         text-decoration-color: none;
         margin-bottom: 20px;
     }
+    
+    .plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
+        border-radius: 12px;
+        width: 90%;
+        height: 220px;
+        margin-bottom: 20px;  
+        align-items: center;
+    } 
 
-    .logo a img{
-        width: 120px;
-        height: 20px;
+    .plat-Acl img{
+        width: 100%;
+        height: 170px;
+        margin-left: 5%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
     }
     
-    .logo i{
-        margin-right: 90px;
+    .annonceA, .annonceB, .annonceC, .annonceD{
+        width: 100%;
+        height: 60px;
+        padding-top: 5px;
+        margin-left: 5%;
     }
-
+    .annonceA p, .annonceB p, .annonceC p, .annonceD p{
+        margin: 0px;
+        font-size: 12px;
+    }
+    
     .btn-Acuil{
-        border: 1px solid black;
+        border: 1px solid #9356DC;
         background-color: #9356DC;
         border-radius: 20px;
-        width: 350px;
-        height: 35px;
+        width: 60%;
+        height: 40px;
         font-size: 11px;
-        text-align: center;
-        margin-left: 50px;
-        padding-bottom: 15px;
+        margin-left: 20%;
+        
     }
     
     .btn-Acuil h2{
         color: white;
+        text-align: center;
     }
-
+    
+    
     .eta, .eta1{
         border: 1px solid black;
-        width: 80px;
+        width: 70px;
         height: 20px;
         margin-top: 10px;
-        margin-right: 10px;
+        margin-right: 0px;
         margin-bottom: -35px;
         position: relative;
         float: right;
         background-color: aquamarine;
     }
-    .table a img{
-        border: 1px solid white;
-        width: 360px;
-        height: 250px;
-    }
+    
     .entreA , .entreB, .entreC{
         border: 1px solid black;
-        justify-content: space-between;
         display: flex;
-        width: 350px;
-        height: 60px;
+        width: 280px;
+        height: 50px;
         border-radius: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
+        
     }
+    
     .platA, .platB, .platC{
         border: 1px solid black;
         display: flex;
-        justify-content:space-between;
-        width: 360px;
-        height: 60px;
+        width: 290px;
+        height: 50px;
         border-radius: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
+        justify-content:space-between;
     }
+    
     .dessertA, .dessertB, .dessertC{
         border: 1px solid black;
         display: flex;
         justify-content:space-between;
         display: flex;
-        width: 360px;
-        height: 60px;
+        width: 290px;
+        height: 50px;
         border-radius: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
     
-    .plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
-        border: 1px solid black;
-        border-radius: 12px;
-        width: 360px;
-        height: 240px;
-        margin-bottom: 20px;
-        margin-left: 9px;
-    } 
-
     .ENTREE p, .PLAT p, .DESSERT p{
         margin: 0px;
         margin-left: 10px;
-    }
-
-    .A1 p, .B1 P, .C1 p{
-        font-size: 12px;
-        margin-top: 10px;
-    }
-    
-    .A2, .B2, .C2{
-        padding-top: 25px;
     }
     
     .A3, .B3, .C3{
@@ -490,6 +194,26 @@ h5{
        padding: 12px 5px 0px 5px ;
        width: 25px;
        height: 37px;
+       transform: translate(60px, 0);
+    }
+    
+    .A3:hover{
+        transform: scale(1);
+    }
+    .B3:hover{
+        transform: scale(1);
+    }
+    .C3:hover{
+        transform: scale(1);
+    }
+    
+    .A1 p, .B1 P, .C1 p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .A2, .B2, .C2{
+        padding-top: 25px;
     }
     
     .A3r, .B3r, .C3r{
@@ -499,18 +223,7 @@ h5{
         border-radius: 30px;
         
     }
-    .plat-Acl{
-        border: 1px solid black;
-        width: 360px;
     
-    }
-    
-    .plat-Acl img{
-        border: 1px solid black;
-        width: 360px;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
-    }
     .chr1 i, .chr2 i, .chr3 i{
         margin-right: 20px;
     }
@@ -525,20 +238,21 @@ h5{
         float: left;
         background-color: #9356DC;
     }
+
     .chr1, .chr2, .chr3{
         border: 1px solid black;
         border-radius: 19px;
-        width: 360px;
+        width: 85%;
         height: 50px;
         margin-bottom: 20px;
         text-align: center;
-        margin-left: 20px;
+        margin-left: 8%;
     }
     
     .btn-bas{
         border: 1px solid black;
         background-color: #9356DC;
-        width: 200px;
+        width: 160px;
         height: 30px;
         border-radius: 25px;
         margin-left: 75px;
@@ -551,23 +265,11 @@ h5{
     .btn-bas p{
         color: white;
     }
-
-    .annonceA, .annonceB, .annonceC, .annonceD{
-        width: 360px;
-        height: 70px;
-        padding-top: 5px;
-    }
     
-    .annonceA p, .annonceB p, .annonceC p, .annonceD p{
-        margin: 0px;
-        font-size: 12px;
-        margin-left: 10px;
-    }
     footer{
-        border: 1px solid black;
-        width: 360px;
-        height: 250px;
-        padding-left: 10px;
+        width: 100%;
+        height: 230px;
+        padding-top: 10px;
         background-color: black;
     }
     
@@ -577,41 +279,28 @@ h5{
     
     footer i{
         margin-right: 10px;
+        margin-left: 10px;
     }
     
-    h5{
+    .mark{
         color: white;
+        margin-left: 10px;
     }
     
     .conta a{
         color: white;
         text-decoration: none;
-    }   
-
+        margin-left: 10px;
+    }
+    .infos{
+        margin-left: 10px;
+    }
+    
+    .ENTREE, .PLAT, .DESSERT{
+        margin-left: 14px;
+    }
+    
     
 }
-    
-@media sreen and (min-width: 376px) and (max-width: 667px){
 
-    main{
-        width: 667px;
-    }
-
-    .tronc{
-        border: 1px solid black;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        width: 640px;
-        height: 930px;  
-    }
-
-    .head{
-        border: 1px solid black;
-        background-color: rgba(248, 241, 241, 0.664);
-        width: 640px;
-        height: 300px;
-        
-    }
-
-
-}
+  
