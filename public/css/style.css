@@ -15,7 +15,7 @@
     #logo a img{
         width: 100px;
         height: 20px;
-        margin-left: 42%;
+        margin-left: 40%;
         margin-bottom: 0px;
     }
 
@@ -148,6 +148,11 @@
         margin-left: 5%;  
         align-items: center;
     } 
+    .plat-Acl{
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
+        height: 980px;
+    }
 
     .plat-Acl img{
         width: 100%;
