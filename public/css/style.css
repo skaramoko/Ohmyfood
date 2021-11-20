@@ -15,13 +15,14 @@
     #logo a img{
         width: 100px;
         height: 20px;
-        margin-left: 38%;
+        margin-left: 42%;
         margin-bottom: 0px;
     }
 
     .logo a img{
         width: 100px;
         height: 20px;
+        margin-left: 14%;
     }
     
     .logo i{
@@ -35,7 +36,7 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         width: 100%;
-        height: 1020px;
+        height: 1040px;
         
     }
     .tronc h1{
@@ -47,7 +48,7 @@
     }
     .tro2{
         margin-top: 30px;
-        margin-left: 53%;
+        margin-left: 50%;
     }
     .tro2:hover .heart1{
         visibility: hidden;
@@ -265,6 +266,9 @@
     .A1 p, .B1 P, .C1 p{
         font: bold;
         margin-top: 10px;
+    }
+    .A1 span, .B1 span, .C1 span{
+        border-bottom: none;
     }
     
     .A2, .B2, .C2{
