@@ -35,7 +35,7 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         width: 100%;
-        height: 930px;
+        height: 1020px;
         
     }
     .tronc h1{
@@ -47,8 +47,18 @@
     }
     .tro2{
         margin-top: 30px;
-        margin-left: 40%;
+        margin-left: 53%;
     }
+    .tro2:hover .heart1{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .tro2:hover .heart2{
+        visibility: visible;
+        opacity: 1;
+        color: #9356DC;
+    }
+
     .table img{
         width: 100%;
         height: 200px;
@@ -64,7 +74,7 @@
     }
 
     h3, h4{
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     span{
@@ -75,6 +85,7 @@
     .heart{
         display: flex;
         font-size: 1rem;
+        margin-left: 60%;
     }
     .heart i{
         color: gray;
@@ -98,6 +109,7 @@
     .heart:hover .heart2{
         visibility: visible;
         opacity: 1;
+        color: #9356DC;
     }
    
     .headpageA{
@@ -193,12 +205,12 @@
         background-color: white;
         display: flex;
         width: 95%;
-        height: 50px;
+        height: 60px;
         border-radius: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
-        
     }
+    
     
     .platA, .platB, .platC{
         border: 1px solid white;
@@ -207,7 +219,7 @@
         background-color: white;
         display: flex;
         width: 95%;
-        height: 50px;
+        height: 60px;
         border-radius: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
@@ -221,7 +233,7 @@
         display: flex;
         display: flex;
         width: 95%;
-        height: 50px;
+        height: 60px;
         border-radius: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -235,6 +247,10 @@
     .ENTREE span, .PLAT span, .DESSERT span{
         margin-left: 10px;
     }
+
+    .ENTREE span, .PLAT span, .DESSERT span{
+        border-bottom: 2px solid #99E2D0;
+    }
     
     .A3, .B3, .C3{
        border: 1px solid #99E2D0;
@@ -243,7 +259,7 @@
        border-bottom-right-radius: 20px;
        padding: 12px 5px 0px 5px ;
        width: 25px;
-       height: 37px;
+       height: 47px;
     }
     
     .A1 p, .B1 P, .C1 p{
@@ -269,6 +285,9 @@
     
     .chr1 i, .chr2 i, .chr3 i{
         margin-right: 20px;
+    }
+    .chr3 i{
+        color: #9356DC;
     }
     
     .ch{
