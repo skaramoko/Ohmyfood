@@ -7,26 +7,27 @@
     }
     
     main{
-        width: 100%;
         align-content: center;
         justify-content: center;
     }
-    
+
+    .headp{
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
     #logo a img{
         width: 100px;
         height: 20px;
-        margin-left: 40%;
         margin-bottom: 0px;
     }
 
     .logo a img{
         width: 100px;
         height: 20px;
-        margin-left: 14%;
-    }
-    
-    .logo i{
-        margin-right: 90px;
+
     }
     
     
@@ -48,7 +49,7 @@
     }
     .tro2{
         margin-top: 30px;
-        margin-left: 50%;
+        margin-left: 40%;
     }
     .tro2:hover .heart1{
         visibility: hidden;
@@ -58,16 +59,15 @@
         visibility: visible;
         opacity: 1;
         color: #9356DC;
+        transition: 2s;
     }
 
     .table img{
         width: 100%;
         height: 200px;
-    }
-    .headp {
-        border: 1px solid black;
-        width: 100%;
-        height: 240px;  
+        object-fit: cover;
+        border-bottom-left-radius: -20px;
+        border-bottom-right-radius: -20px;
     }
     
     h1{
@@ -76,6 +76,7 @@
 
     h3, h4{
         margin-left: 20px;
+        margin-bottom: 30px;
     }
 
     span{
@@ -86,7 +87,7 @@
     .heart{
         display: flex;
         font-size: 1rem;
-        margin-left: 60%;
+        margin-left: 50%;
     }
     .heart i{
         color: gray;
@@ -111,11 +112,11 @@
         visibility: visible;
         opacity: 1;
         color: #9356DC;
+        transition: 2s;
     }
    
     .headpageA{
         background-color: rgb(218, 214, 214);
-        width: 100%;
         height: 40px;
         padding-top: 3px;
     }
@@ -125,7 +126,7 @@
     }
     
     .headpageB h1{
-        border: none;
+       border: none;
     }
     
     .headpageA, .headpageB{
@@ -148,6 +149,7 @@
         margin-left: 5%;  
         align-items: center;
     } 
+
     .plat-Acl{
         border: 1px solid #eff4f5;
         background-color: #eff4f5;
@@ -168,6 +170,7 @@
         padding-top: 5px;
         margin-left: 5%;
     }
+
     .annonceA p, .annonceB p, .annonceC p, .annonceD p{
         margin: 0px;
         font: bold;
@@ -182,6 +185,7 @@
         height: 40px;
         font-size: 11px;
         margin-left: 20%;
+        margin-top: 30px;
         
     }
     
@@ -210,6 +214,7 @@
         justify-content:space-between;
         background-color: white;
         display: flex;
+        position: relative;
         width: 95%;
         height: 60px;
         border-radius: 20px;
@@ -224,6 +229,7 @@
         justify-content:space-between;
         background-color: white;
         display: flex;
+        position: relative;
         width: 95%;
         height: 60px;
         border-radius: 20px;
@@ -237,7 +243,7 @@
         justify-content:space-between;
         background-color: white;
         display: flex;
-        display: flex;
+        position: relative;
         width: 95%;
         height: 60px;
         border-radius: 20px;
@@ -277,7 +283,7 @@
     }
     
     .A2, .B2, .C2{
-        padding-top: 25px;
+        padding-top: 30px;
     }
     
     .A3r, .B3r, .C3r{
@@ -286,7 +292,7 @@
         width: 20px;
         height: 20px;
         border-radius: 30px;
-        
+        margin-top: 5px;
     }
     .A3r i, .B3r i, .C3r i{
         color: #99E2D0;
@@ -311,7 +317,7 @@
     }
 
     .chr1, .chr2, .chr3{
-        border: 1px solid black;
+        border: 1px solid white;
         border-radius: 19px;
         width: 85%;
         height: 50px;
@@ -331,14 +337,11 @@
         width: 40%;
         height: 30px;
         border-radius: 25px;
-        margin-top: 30px;
+        margin-top: 45px;
+        margin-left: 28%;
         padding-bottom: 20px;
         text-align: center;
         align-content: center;
-    }
-    
-    .btn-bas{
-        margin-left: 28%;
     }
 
     .btn-bas p{
@@ -365,6 +368,7 @@
     .mark{
         color: white;
         margin-left: 10px;
+        font-size: 20px;
     }
     
     .conta a{
@@ -380,8 +384,393 @@
         margin-left: 14px;
     }
 
-    /*IPHONE 678 PLUS*/
      
     
 }
 
+@media screen and (min-width: 811px) and (max-width: 1440px){
+    body{
+        font-family: roboto;
+    }
+    
+    main{
+        align-content: center;
+        justify-content: center;
+    }
+
+    .headp{
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    #logo a img{
+        width: 100px;
+        height: 20px;
+        margin-bottom: 0px;
+    }
+
+    .logo a img{
+        width: 100px;
+        height: 20px;
+
+    }
+    
+    
+    .tronc{
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        width: 100%;
+        height: 1040px;
+        
+    }
+    .tronc h1{
+        margin-left: 10px;
+    }
+
+    .tro{
+        display: flex;
+    }
+    .tro2{
+        margin-top: 30px;
+        margin-left: 40%;
+    }
+    .tro2:hover .heart1{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .tro2:hover .heart2{
+        visibility: visible;
+        opacity: 1;
+        color: #9356DC;
+        transition: 2s;
+    }
+
+    .table img{
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-bottom-left-radius: -20px;
+        border-bottom-right-radius: -20px;
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+
+    h3, h4{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    span{
+        color: gray;
+        font-size: 12px;
+    }
+    
+    .heart{
+        display: flex;
+        font-size: 1rem;
+        margin-left: 50%;
+    }
+    .heart i{
+        color: gray;
+    }
+    .heart1{
+        visibility: visible;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .heart2{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .heart:hover .heart1{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .heart:hover .heart2{
+        visibility: visible;
+        opacity: 1;
+        color: #9356DC;
+        transition: 2s;
+    }
+   
+    .headpageA{
+        background-color: rgb(218, 214, 214);
+        height: 40px;
+        padding-top: 3px;
+    }
+    
+    .headpageA i{
+        margin-right: 10px;
+    }
+    
+    .headpageB h1{
+       border: none;
+    }
+    
+    .headpageA, .headpageB{
+        text-align: center;
+    }
+    
+    .headpageC{
+        text-align: center;
+        text-decoration-color: none;
+        margin-bottom: 5px;
+    }
+    
+    .plat-aclA, .plat-aclB, .plat-aclC, .plat-aclD{
+        border: 1px solid gainsboro;
+        box-shadow: 0px 1px 5px gray;
+        border-radius: 12px;
+        width: 90%;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-left: 5%;  
+        align-items: center;
+    } 
+
+    .plat-Acl{
+        border: 1px solid #eff4f5;
+        background-color: #eff4f5;
+        height: 980px;
+    }
+
+    .plat-Acl img{
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    
+    .annonceA, .annonceB, .annonceC, .annonceD{
+        display: flex;
+        width: 100%;
+        height: 0px;
+        padding-top: 5px;
+        margin-left: 5%;
+    }
+
+    .annonceA p, .annonceB p, .annonceC p, .annonceD p{
+        margin: 0px;
+        font: bold;
+        font-size: 12px;
+    }
+    
+    .btn-Acuil{
+        border: 1px solid #d33fcb;
+        background-color: #ee80e8;
+        border-radius: 20px;
+        width: 60%;
+        height: 40px;
+        font-size: 11px;
+        margin-left: 20%;
+        margin-top: 30px;
+        
+    }
+    
+    .btn-Acuil h2{
+        color: white;
+        text-align: center;
+        margin-top: 8px;
+    }
+    
+    
+    .eta, .eta1{
+        border: 1px solid black;
+        width: 70px;
+        height: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: -35px;
+        position: relative;
+        float: right;
+        background-color: #99E2D0;
+    }
+    
+    .entreA , .entreB, .entreC{
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
+        justify-content:space-between;
+        background-color: white;
+        display: flex;
+        position: relative;
+        width: 95%;
+        height: 60px;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .platA, .platB, .platC{
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
+        justify-content:space-between;
+        background-color: white;
+        display: flex;
+        position: relative;
+        width: 95%;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .dessertA, .dessertB, .dessertC{
+        border: 1px solid white;
+        box-shadow: 0px 3px 5px gainsboro;
+        justify-content:space-between;
+        background-color: white;
+        display: flex;
+        position: relative;
+        width: 95%;
+        height: 60px;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .ENTREE p, .PLAT p, .DESSERT p{
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .ENTREE span, .PLAT span, .DESSERT span{
+        margin-left: 10px;
+    }
+
+    .ENTREE span, .PLAT span, .DESSERT span{
+        border-bottom: 2px solid #99E2D0;
+    }
+    
+    .A3, .B3, .C3{
+       border: 1px solid #99E2D0;
+       background-color: #99E2D0;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+       padding: 12px 5px 0px 5px ;
+       width: 25px;
+       height: 47px;
+    }
+    
+    .A1 p, .B1 P, .C1 p{
+        font: bold;
+        margin-top: 10px;
+    }
+    .A1 span, .B1 span, .C1 span{
+        border-bottom: none;
+    }
+    
+    .A2, .B2, .C2{
+        padding-top: 30px;
+    }
+    
+    .A3r, .B3r, .C3r{
+        border: 1px solid #99E2D0;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 30px;
+        margin-top: 5px;
+    }
+    .A3r i, .B3r i, .C3r i{
+        color: #99E2D0;
+    }
+    
+    .chr1 i, .chr2 i, .chr3 i{
+        margin-right: 20px;
+    }
+    .chr3 i{
+        color: #9356DC;
+    }
+    
+    .ch{
+        border: 1px solid #9356DC;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: -13px;
+        float: left;
+        background-color: #9356DC;
+    }
+
+    .chr1, .chr2, .chr3{
+        border: 1px solid white;
+        border-radius: 19px;
+        width: 85%;
+        height: 50px;
+        box-shadow: 0px 2px 4px gray;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 8%;
+    }
+    .chr3{
+        background-color: #f7ebf4;
+    }
+    .chr1, .chr2{
+        background-color: #eff4f5;
+    }
+    .btn-bas{
+        border: 1px solid #9356DC;
+        background-color: #9356DC;
+        width: 40%;
+        height: 30px;
+        border-radius: 25px;
+        margin-top: 45px;
+        margin-left: 28%;
+        padding-bottom: 20px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .btn-bas p{
+        color: white;
+    }
+
+    
+    footer{
+        width: 100%;
+        height: 230px;
+        padding-top: 10px;
+        background-color: black;
+    }
+    
+    footer p{
+        color: white;
+    }
+    
+    footer i{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .mark{
+        color: white;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .conta a{
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    .infos{
+        margin-left: 10px;
+    }
+    
+    .ENTREE, .PLAT, .DESSERT{
+        margin-left: 14px;
+    }
+    
+     
+}
