@@ -319,6 +319,7 @@
     .chr1, .chr2, .chr3{
         border: 1px solid white;
         border-radius: 19px;
+        box-shadow: 0px 2px 4px gray;
         width: 85%;
         height: 50px;
         margin-bottom: 20px;
